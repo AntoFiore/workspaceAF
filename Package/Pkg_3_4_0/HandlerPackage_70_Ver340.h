@@ -1,0 +1,69 @@
+#ifndef HANDLERPACKAGE_70_VER340_H
+#define HANDLERPACKAGE_70_VER340_H
+
+#include <HandlerPackage.h>
+#include <QObject>
+#include "GraphicVariablePkg.h"
+
+namespace package {
+class HandlerPackage_70_Ver340 : public HandlerPackage
+{
+    Q_OBJECT
+public:
+    explicit HandlerPackage_70_Ver340(QObject *parent = nullptr);
+
+    virtual bool creteView() override;
+    virtual bool saveData()  override;
+    virtual void deleteView() override;
+
+private:
+
+    package::GraphicVariablePkg *m_nidPkgVar;
+    package::GraphicVariablePkg *m_qDirVar;
+    package::GraphicVariablePkg *m_lenPkgVar;
+    package::GraphicVariablePkg *m_ScaleVar;
+
+
+    package::GraphicVariablePkg *m_qTrackInitVar;
+    package::GraphicVariablePkg *m_dTrackInitVar;
+    package::GraphicVariablePkg *m_dSuitabilityVar;
+
+    package::GraphicVariablePkg *m_qSuitabilityVar;
+    package::GraphicVariablePkg *m_mLineGaugeVar;
+    package::GraphicVariablePkg *m_mAxleloadcatVar;
+    package::GraphicVariablePkg *m_mVoltageVar;
+    package::GraphicVariablePkg *m_nid_CtractionVar;
+
+
+
+
+    package::GraphicVariablePkg *m_nIterVar;
+
+
+
+private slots:
+
+    void handleChangeIteration_SL();
+    void handleChangeScaleVariable_SL(QString nameVariable);
+    void handleChangeQ_TrackInitVariable_SL(QString nameVariable);
+    void handleChangeQ_SUITABILITYVariable_SL(QString nameVariable);
+    void handleChangeM_Voltage_SL(QString nameVariable);
+
+    void handleChangeQ_SUITABILITY_IterVariable_SL(QString nameVariable);
+    void handleChangeM_VoltageIterVariable_SL(QString nameVariable);
+
+private:
+    void showVariable();
+
+    qint16 m_currentIteration;
+    qint16 m_currCol;
+    qint16 m_row ;
+protected:
+    void loadPkg() override;
+
+
+
+};
+}
+
+#endif // HANDLERPACKAGE_70_VER340_H
