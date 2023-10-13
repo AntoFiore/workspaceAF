@@ -1,0 +1,19 @@
+<command_family name_family= "MT_APDM" >
+
+	<program name_programm = "tbl1p">
+		<comando action="DRIVER_ID"    range_delay="0;65535"    delay_default="4"    range_time_pressure="0;120"    default_time_pressure="0.5" sub_action ="NUMERO_1;NUMERO_2" sub_delay="1" sub_delay_pressure="0.5" />
+		<comando action="LEVEL"    range_delay="0;65535"    delay_default="4"    range_time_pressure="0;120"    default_time_pressure="0.5" sub_action ="LEVEL_2;VALIDATE_LEVEL" sub_delay="1" sub_delay_pressure="0.5" />
+		<comando action="TRAIN_DATA"    range_delay="0;65535"    delay_default="4"    range_time_pressure="0;120"    default_time_pressure="0.5"  
+				 sub_action ="TRAIN_DATA;COMPLETE_DATA_ENTRY;YES_DATA_CONF;VALIDATE_TRAIN_DATA;NUMERO_8;NUMERO_7;NUMERO_6;NUMERO_5;CONF_TRAIN_RUNNING_NUMBER"  sub_delay="1" sub_delay_pressure="0.5" />
+				 
+	</program>
+	
+	<program name_programm = "arriva">
+		<comando action="DRIVER_ID"    range_delay="0;65535"    delay_default="4"    range_time_pressure="0;120"    default_time_pressure="0.5" sub_action ="NUMERO_1;NUMERO_2" sub_delay="1" sub_delay_pressure="0.5" />
+		<comando action="LEVEL"    range_delay="0;65535"    delay_default="4"    range_time_pressure="0;120"    default_time_pressure="0.5" sub_action ="LEVEL_2;VALIDATE_LEVEL" sub_delay="1" sub_delay_pressure="0.5" />
+		<comando action="TRAIN_DATA"    range_delay="0;65535"    delay_default="4"    range_time_pressure="0;120"    default_time_pressure="0.5"  
+				 sub_action ="TRAIN_DATA;COMPLETE_DATA_ENTRY;YES_DATA_CONF;VALIDATE_TRAIN_DATA;NUMERO_8;NUMERO_7;NUMERO_6;NUMERO_5;CONF_TRAIN_RUNNING_NUMBER"  sub_delay="1" sub_delay_pressure="0.5" />
+			 
+	</program>	
+	
+</command_family>

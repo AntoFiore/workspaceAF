@@ -1,0 +1,66 @@
+
+<command_family name= "T_IO" >
+    <!-- Nome Canle-->
+    <comando canale = "ACK_BUTTON" action="ON;OFF" range=""  azione_default="ON"/>	
+	<comando canale = "ALIM" action="ON;OFF" range="" azione_default="ON"/>
+	<comando canale = "ALIM_NTB" action="ON;OFF"  range="" azione_default="ON"/>
+	<comando canale = "BANCO_A_NTB" action="ON;OFF"  range="" azione_default="ON"/>
+	<comando canale = "BANCO_B_NTB" action="ON;OFF" range="" azione_default="ON"/>
+	<comando canale = "ASFA_A_CONNECTED" action="ON;OFF" range="" azione_default="ON" />
+	<comando canale = "ASFA_A_EB_FB" action="ON;OFF" range="" azione_default="ON" />
+	<comando canale = "ASFA_B_CONNECTED" action="ON;OFF" range=""  azione_default="ON" />
+	<comando canale = "ASFA_B_EB_FB" action="ON;OFF" range="" azione_default="ON" />
+	<comando canale = "AV_A" action="ON;OFF" range="" azione_default="ON" />
+	<comando canale = "AV_B" action="ON;OFF" range="" azione_default="ON" />
+	<comando canale = "IND_A" action="ON;OFF" range="" azione_default="ON" />
+	<comando canale = "IND_B" action="ON;OFF" range="" azione_default="ON" />
+	<comando canale = "BANCO_A" action="ON;OFF" range="" azione_default="ON" />
+	<comando canale = "BANCO_B" action="ON;OFF" range="" azione_default="ON" />
+	<comando canale = "CIRC_BREAKER" action="ON;OFF" range="" azione_default="ON" />
+	<comando canale = "COLD_MOV" action="ON;OFF" range="" azione_default="ON" />
+	<comando canale = "DMI_LSB" action="ON;OFF" range="" azione_default="ON" />
+	<comando canale = "DMI_MSB" action="ON;OFF" range="" azione_default="ON" />
+	<comando canale = "DOOR_LSB" action="ON;OFF" range="" azione_default="ON" />
+	<comando canale = "DOOR_MSB" action="ON;OFF" range="" azione_default="ON" />
+	<comando canale = "EDDY_BRAKE " action="ON;OFF" range="" azione_default="ON" />
+	<comando canale = "EL_PN_BRAKE" action="ON;OFF" range="" azione_default="ON" />
+	<comando canale = "ERR_PRESS_NA" action="ON;OFF" range="" azione_default="ON" />
+	<comando canale = "ERR_PRESS_NC" action="ON;OFF" range="" azione_default="ON" />
+	<comando canale = "ERR_TONE_CNB" action="ON;OFF" range="" azione_default="ON" />
+	<comando canale = "ERR_TONO_CNA" action="ON;OFF" range="" azione_default="ON" />
+	<comando canale = "ERR_TONO_CRA" action="ON;OFF" range="" azione_default="ON" />
+	<comando canale = "ERR_TONO_CRB" action="ON;OFF" range="" azione_default="ON" />
+	<comando canale = "INT_CNA" action="ON;OFF" range="" azione_default="ON" />
+	<comando canale = "INT_CNB" action="ON;OFF" range="" azione_default="ON" />
+	<comando canale = "INT_CRA" action="ON;OFF" range="" azione_default="ON" />
+	<comando canale = "INT_CRB" action="ON;OFF" range="" azione_default="ON"/>
+	<comando canale = "FREN_MAN" action="ON;OFF" range="" azione_default="ON" />
+	<comando canale = "GT1_CH1" action="ON;OFF" range="" azione_default="ON" />
+	<comando canale = "GT1_CH2" action="ON;OFF" range="" azione_default="ON" />
+	<comando canale = "GT1_PW1" action="ON;OFF" range="" azione_default="ON" />
+	<comando canale = "GT1_PW2" action="ON;OFF" range="" azione_default="ON" />
+	<comando canale = "GT2_CH1" action="ON;OFF" range="" azione_default="ON" />
+	<comando canale = "GT2_CH2" action="ON;OFF" range="" azione_default="ON" />
+	<comando canale = "GT2_PW1" action="ON;OFF" range="" azione_default="ON" />
+	<comando canale = "GT2_PW2" action="ON;OFF" range="" azione_default="ON" />
+	<comando canale = "ISOLATION" action="ON;OFF" range=""  azione_default="ON" />
+	<comando canale = "MAGN_BRAKE" action="ON;OFF" range=""  azione_default="ON" />
+	<comando canale = "NON_LEADING" action="ON;OFF" range=""  azione_default="ON" />
+	<comando canale = "OFF_MMI_A" action="ON;OFF" range="" azione_default="ON"/>
+	<comando canale = "OFF_MMI_B" action="ON;OFF" range="" azione_default="ON"/>
+	<comando canale = "PANT_DOWN" action="ON;OFF" range="" azione_default="ON" />
+	<comando canale = "PASSIVE_SH" action="ON;OFF" range="" azione_default="ON"/>
+	<comando canale = "POWER_SH" action="ON;OFF" range="" azione_default="ON"/>
+	<comando canale = "REG_BRAKE" action="ON;OFF" range=""  azione_default="ON"/>
+	<comando canale = "SCAMBIO_A_B" action="ON;OFF" range="" azione_default="ON"/>
+	<comando canale = "SERV_BRAKE_APPL" action="ON;OFF" range="" azione_default="ON" />
+	<comando canale = "SLEEPING" action="ON;OFF" range=""  azione_default="ON" />
+	<comando canale = "TRACTION_APPLIED" action="ON;OFF" range=""  azione_default="ON"/>
+	<comando canale = "TRAIN_INT" action="ON;OFF" range="" azione_default="ON" />
+	<comando canale = "V_PED_A" action="ON;OFF" range="" azione_default="ON"/>
+	<comando canale = "V_PED_B" action="ON;OFF"  range="" azione_default="ON"/>
+	<comando canale = "V_RAP_A" action="ON;OFF" range=""  azione_default="ON"/>
+	<comando canale = "V_RAP_B" action="ON;OFF"  range="" azione_default="ON"/>
+	<comando canale = "EVIG" action="ON;OFF"  range="" azione_default="ON"/>
+	<comando canale = "ADD_BRAKE" action="ON;OFF"  range="" azione_default="ON"/>
+</command_family>

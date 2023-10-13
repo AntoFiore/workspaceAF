@@ -1,0 +1,3 @@
+<command_family name= "T_ODO" >
+<comando range_speed = "0;400" range_acc ="0;100"/>
+</command_family>

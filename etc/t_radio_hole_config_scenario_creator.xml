@@ -1,0 +1,3 @@
+<command_family name= "T_RADIO_HOLE" >
+<comando modem = "1;2" hole_type ="NO_CARRIER;NO_REG" command="START;STOP"/>
+</command_family>

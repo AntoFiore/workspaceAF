@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>insertBaliseGrp.png</file>
+        <file>less.png</file>
+        <file>plus.png</file>
+        <file>stylesheet-branch-closed.png</file>
+        <file>stylesheet-branch-end.png</file>
+        <file>stylesheet-branch-more.png</file>
+        <file>stylesheet-branch-open.png</file>
+        <file>stylesheet-vline.png</file>
+        <file>update.png</file>
+    </qresource>
+</RCC>

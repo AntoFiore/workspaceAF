@@ -1,0 +1,265 @@
+<single_command>
+	<national_system name="STM_FNM">
+		<comando ente="T_STM_FNM"    value="No Power"    command="STATE"    description ="STATE  No Power for STM_FNM"  />
+		<comando ente="T_STM_FNM"    value="No Power"    command="STATE_REQ"    description ="STATE_REQ  No Power for STM_FNM"  />
+		<comando ente="T_STM_FNM"    value="No Power"    command="STATE_ORDER"    description ="STATE_ORDER  No Power for STM_FNM"  />
+		<comando ente="T_STM_FNM"    value="Power On"    command="STATE"    description ="STATE  Power On for STM_FNM"  />
+		<comando ente="T_STM_FNM"    value="Power On"    command="STATE_REQ"    description ="STATE_REQ  Power On for STM_FNM"  />
+		<comando ente="T_STM_FNM"    value="Power On"    command="STATE_ORDER"    description ="STATE_ORDER  Power On for STM_FNM"  />
+		<comando ente="T_STM_FNM"    value="Configuration"    command="STATE"    description ="STATE  Configuration for STM_FNM"  />
+		<comando ente="T_STM_FNM"    value="Configuration"    command="STATE_REQ"    description ="STATE_REQ  Configuration for STM_FNM"  />
+		<comando ente="T_STM_FNM"    value="Configuration"    command="STATE_ORDER"    description ="STATE_ORDER  Configuration for STM_FNM"  />
+		<comando ente="T_STM_FNM"    value="Data Entry"    command="STATE"    description ="STATE  Data Entry for STM_FNM"  />
+		<comando ente="T_STM_FNM"    value="Data Entry"    command="STATE_REQ"    description ="STATE_REQ  Data Entry for STM_FNM"  />
+		<comando ente="T_STM_FNM"    value="Data Entry"    command="STATE_ORDER"    description ="STATE_ORDER  Data Entry for STM_FNM"  />
+		<comando ente="T_STM_FNM"    value="Cold StandBy"    command="STATE"    description ="STATE  Cold StandBy for STM_FNM"  />
+		<comando ente="T_STM_FNM"    value="Cold StandBy"    command="STATE_REQ"    description ="STATE_REQ  Cold StandBy for STM_FNM"  />
+		<comando ente="T_STM_FNM"    value="Cold StandBy"    command="STATE_ORDER"    description ="STATE_ORDER  Cold StandBy for STM_FNM"  />
+		<comando ente="T_STM_FNM"    value="Hot StandBy"    command="STATE"    description ="STATE  Hot StandBy for STM_FNM"  />
+		<comando ente="T_STM_FNM"    value="Hot StandBy"    command="STATE_REQ"    description ="STATE_REQ  Hot StandBy for STM_FNM"  />
+		<comando ente="T_STM_FNM"    value="Hot StandBy"    command="STATE_ORDER"    description ="STATE_ORDER  Hot StandBy for STM_FNM"  />
+		<comando ente="T_STM_FNM"    value="Data Available"    command="STATE"    description ="STATE  Data Available for STM_FNM"  />
+		<comando ente="T_STM_FNM"    value="Data Available"    command="STATE_REQ"    description ="STATE_REQ  Data Available for STM_FNM"  />
+		<comando ente="T_STM_FNM"    value="Data Available"    command="STATE_ORDER"    description ="STATE_ORDER  Data Available for STM_FNM"  />
+		<comando ente="T_STM_FNM"    value="Failure"    command="STATE"    description ="STATE  Failure for STM_FNM"  />
+		<comando ente="T_STM_FNM"    value="Failure"    command="STATE_REQ"    description ="STATE_REQ  Failure for STM_FNM"  />
+		<comando ente="T_STM_FNM"    value="Failure"    command="STATE_ORDER"    description ="STATE_ORDER  Failure for STM_FNM"  />
+		<comando ente="T_STM_FNM"    value="ON"    command="EB"    description ="EB  ON for STM_FNM"  />
+		<comando ente="T_STM_FNM"    value="OFF"    command="EB"    description ="EB  OFF for STM_FNM"  />
+		<comando ente="T_STM_FNM"    value="ON"    command="SB"    description ="SB  ON for STM_FNM"  />
+		<comando ente="T_STM_FNM"    value="OFF"    command="SB"    description ="SB  OFF for STM_FNM"  />
+		<comando ente="T_STM_FNM"    value="ON"    command="TCO"    description ="TCO  ON for STM_FNM"  />
+		<comando ente="T_STM_FNM"    value="OFF"    command="TCO"    description ="TCO  OFF for STM_FNM"  />
+		<comando ente="T_STM_FNM"    value="ON"    command="TRIP"    description ="TRIP  ON for STM_FNM"  />
+		<comando ente="T_STM_FNM"    value="OFF"    command="TRIP"    description ="TRIP  OFF for STM_FNM"  />
+		<comando ente="T_STM_FNM"    value="ON"    command="OVERRIDE"    description ="OVERRIDE  ON for STM_FNM"  />
+		<comando ente="T_STM_FNM"    value="OFF"    command="OVERRIDE"    description ="OVERRIDE  OFF for STM_FNM"  />
+		<comando ente="T_STM_FNM"    value="ON"    command="ISOLATION"    description ="ISOLATION  ON for STM_FNM"  />
+		<comando ente="T_STM_FNM"    value="OFF"    command="ISOLATION"    description ="ISOLATION  OFF for STM_FNM"  />
+		<comando ente="T_STM_FNM"    value="127"    command="V_MAX"    description ="V_MAX  127 for STM_FNM"  />
+		<comando ente="T_STM_FNM"    value="127"    command="V_SYS"    description ="V_SYS  127 for STM_FNM"  />
+		<comando ente="T_STM_FNM"    value="200"    command="D_SYS"    description ="D_SYS  200 for STM_FNM"  />
+		<comando ente="T_STM_FNM"    value="ON"    command="ISOLATION_NL"    description ="ISOLATION_NL  ON for STM_FNM"  />
+		<comando ente="T_STM_FNM"    value="OFF"    command="ISOLATION_NL"    description ="ISOLATION_NL  OFF for STM_FNM"  />
+		<comando ente="T_STM_FNM"    value="ON"    command="STANDSTILL"    description ="STANDSTILL  ON for STM_FNM"  />
+		<comando ente="T_STM_FNM"    value="OFF"    command="STANDSTILL"    description ="STANDSTILL  OFF for STM_FNM"  />
+		<comando ente="T_STM_FNM"    value="ON"    command="BTJACK"    description ="BTJACK  ON for STM_FNM"  />
+		<comando ente="T_STM_FNM"    value="OFF"    command="BTJACK"    description ="BTJACK  OFF for STM_FNM"  />
+		<comando ente="T_STM_FNM"    value="ON"    command="BACACK"    description ="BACACK  ON for STM_FNM"  />
+		<comando ente="T_STM_FNM"    value="OFF"    command="BACACK"    description ="BACACK  OFF for STM_FNM"  />
+	</national_system>
+	<national_system name="STM_LZB">
+	
+		<comando ente="T_STM_LZB"    value="No Power"    command="STATE"    description ="STATE  No Power for STM_LZB"  />
+		<comando ente="T_STM_LZB"    value="No Power"    command="STATE_REQ"    description ="STATE_REQ  No Power for STM_LZB"  />
+		<comando ente="T_STM_LZB"    value="No Power"    command="STATE_ORDER"    description ="STATE_ORDER  No Power for STM_LZB"  />
+		<comando ente="T_STM_LZB"    value="Power On"    command="STATE"    description ="STATE  Power On for STM_LZB"  />
+		<comando ente="T_STM_LZB"    value="Power On"    command="STATE_REQ"    description ="STATE_REQ  Power On for STM_LZB"  />
+		<comando ente="T_STM_LZB"    value="Power On"    command="STATE_ORDER"    description ="STATE_ORDER  Power On for STM_LZB"  />
+		<comando ente="T_STM_LZB"    value="Configuration"    command="STATE"    description ="STATE  Configuration for STM_LZB"  />
+		<comando ente="T_STM_LZB"    value="Configuration"    command="STATE_REQ"    description ="STATE_REQ  Configuration for STM_LZB"  />
+		<comando ente="T_STM_LZB"    value="Configuration"    command="STATE_ORDER"    description ="STATE_ORDER  Configuration for STM_LZB"  />
+		<comando ente="T_STM_LZB"    value="Data Entry"    command="STATE"    description ="STATE  Data Entry for STM_LZB"  />
+		<comando ente="T_STM_LZB"    value="Data Entry"    command="STATE_REQ"    description ="STATE_REQ  Data Entry for STM_LZB"  />
+		<comando ente="T_STM_LZB"    value="Data Entry"    command="STATE_ORDER"    description ="STATE_ORDER  Data Entry for STM_LZB"  />
+		<comando ente="T_STM_LZB"    value="Cold StandBy"    command="STATE"    description ="STATE  Cold StandBy for STM_LZB"  />
+		<comando ente="T_STM_LZB"    value="Cold StandBy"    command="STATE_REQ"    description ="STATE_REQ  Cold StandBy for STM_LZB"  />
+		<comando ente="T_STM_LZB"    value="Cold StandBy"    command="STATE_ORDER"    description ="STATE_ORDER  Cold StandBy for STM_LZB"  />
+		<comando ente="T_STM_LZB"    value="Hot StandBy"    command="STATE"    description ="STATE  Hot StandBy for STM_LZB"  />
+		<comando ente="T_STM_LZB"    value="Hot StandBy"    command="STATE_REQ"    description ="STATE_REQ  Hot StandBy for STM_LZB"  />
+		<comando ente="T_STM_LZB"    value="Hot StandBy"    command="STATE_ORDER"    description ="STATE_ORDER  Hot StandBy for STM_LZB"  />
+		<comando ente="T_STM_LZB"    value="Data Available"    command="STATE"    description ="STATE  Data Available for STM_LZB"  />
+		<comando ente="T_STM_LZB"    value="Data Available"    command="STATE_REQ"    description ="STATE_REQ  Data Available for STM_LZB"  />
+		<comando ente="T_STM_LZB"    value="Data Available"    command="STATE_ORDER"    description ="STATE_ORDER  Data Available for STM_LZB"  />
+		<comando ente="T_STM_LZB"    value="Failure"    command="STATE"    description ="STATE  Failure for STM_LZB"  />
+		<comando ente="T_STM_LZB"    value="Failure"    command="STATE_REQ"    description ="STATE_REQ  Failure for STM_LZB"  />
+		<comando ente="T_STM_LZB"    value="Failure"    command="STATE_ORDER"    description ="STATE_ORDER  Failure for STM_LZB"  />
+		<comando ente="T_STM_LZB"    value="ON"    command="EB"    description ="EB  ON for STM_LZB"  />
+		<comando ente="T_STM_LZB"    value="OFF"    command="EB"    description ="EB  OFF for STM_LZB"  />
+		<comando ente="T_STM_LZB"    value="ON"    command="SB"    description ="SB  ON for STM_LZB"  />
+		<comando ente="T_STM_LZB"    value="OFF"    command="SB"    description ="SB  OFF for STM_LZB"  />
+		<comando ente="T_STM_LZB"    value="ON"    command="TCO"    description ="TCO  ON for STM_LZB"  />
+		<comando ente="T_STM_LZB"    value="OFF"    command="TCO"    description ="TCO  OFF for STM_LZB"  />
+		<comando ente="T_STM_LZB"    value="ON"    command="TRIP"    description ="TRIP  ON for STM_LZB"  />
+		<comando ente="T_STM_LZB"    value="OFF"    command="TRIP"    description ="TRIP  OFF for STM_LZB"  />
+		<comando ente="T_STM_LZB"    value="ON"    command="OVERRIDE"    description ="OVERRIDE  ON for STM_LZB"  />
+		<comando ente="T_STM_LZB"    value="OFF"    command="OVERRIDE"    description ="OVERRIDE  OFF for STM_LZB"  />
+		<comando ente="T_STM_LZB"    value="ON"    command="ISOLATION"    description ="ISOLATION  ON for STM_LZB"  />
+		<comando ente="T_STM_LZB"    value="OFF"    command="ISOLATION"    description ="ISOLATION  OFF for STM_LZB"  />
+		<comando ente="T_STM_LZB"    value="127"    command="V_MAX"    description ="V_MAX  127 for STM_LZB"  />
+		<comando ente="T_STM_LZB"    value="127"    command="V_SYS"    description ="V_SYS  127 for STM_LZB"  />
+		<comando ente="T_STM_LZB"    value="200"    command="D_SYS"    description ="D_SYS  200 for STM_LZB"  />
+		</national_system>
+	<national_system name="STM_PZB">
+		<comando ente="T_STM_PZB"    value="No Power"    command="STATE"    description ="STATE  No Power for STM_PZB"  />
+		<comando ente="T_STM_PZB"    value="No Power"    command="STATE_REQ"    description ="STATE_REQ  No Power for STM_PZB"  />
+		<comando ente="T_STM_PZB"    value="No Power"    command="STATE_ORDER"    description ="STATE_ORDER  No Power for STM_PZB"  />
+		<comando ente="T_STM_PZB"    value="Power On"    command="STATE"    description ="STATE  Power On for STM_PZB"  />
+		<comando ente="T_STM_PZB"    value="Power On"    command="STATE_REQ"    description ="STATE_REQ  Power On for STM_PZB"  />
+		<comando ente="T_STM_PZB"    value="Power On"    command="STATE_ORDER"    description ="STATE_ORDER  Power On for STM_PZB"  />
+		<comando ente="T_STM_PZB"    value="Configuration"    command="STATE"    description ="STATE  Configuration for STM_PZB"  />
+		<comando ente="T_STM_PZB"    value="Configuration"    command="STATE_REQ"    description ="STATE_REQ  Configuration for STM_PZB"  />
+		<comando ente="T_STM_PZB"    value="Configuration"    command="STATE_ORDER"    description ="STATE_ORDER  Configuration for STM_PZB"  />
+		<comando ente="T_STM_PZB"    value="Data Entry"    command="STATE"    description ="STATE  Data Entry for STM_PZB"  />
+		<comando ente="T_STM_PZB"    value="Data Entry"    command="STATE_REQ"    description ="STATE_REQ  Data Entry for STM_PZB"  />
+		<comando ente="T_STM_PZB"    value="Data Entry"    command="STATE_ORDER"    description ="STATE_ORDER  Data Entry for STM_PZB"  />
+		<comando ente="T_STM_PZB"    value="Cold StandBy"    command="STATE"    description ="STATE  Cold StandBy for STM_PZB"  />
+		<comando ente="T_STM_PZB"    value="Cold StandBy"    command="STATE_REQ"    description ="STATE_REQ  Cold StandBy for STM_PZB"  />
+		<comando ente="T_STM_PZB"    value="Cold StandBy"    command="STATE_ORDER"    description ="STATE_ORDER  Cold StandBy for STM_PZB"  />
+		<comando ente="T_STM_PZB"    value="Hot StandBy"    command="STATE"    description ="STATE  Hot StandBy for STM_PZB"  />
+		<comando ente="T_STM_PZB"    value="Hot StandBy"    command="STATE_REQ"    description ="STATE_REQ  Hot StandBy for STM_PZB"  />
+		<comando ente="T_STM_PZB"    value="Hot StandBy"    command="STATE_ORDER"    description ="STATE_ORDER  Hot StandBy for STM_PZB"  />
+		<comando ente="T_STM_PZB"    value="Data Available"    command="STATE"    description ="STATE  Data Available for STM_PZB"  />
+		<comando ente="T_STM_PZB"    value="Data Available"    command="STATE_REQ"    description ="STATE_REQ  Data Available for STM_PZB"  />
+		<comando ente="T_STM_PZB"    value="Data Available"    command="STATE_ORDER"    description ="STATE_ORDER  Data Available for STM_PZB"  />
+		<comando ente="T_STM_PZB"    value="Failure"    command="STATE"    description ="STATE  Failure for STM_PZB"  />
+		<comando ente="T_STM_PZB"    value="Failure"    command="STATE_REQ"    description ="STATE_REQ  Failure for STM_PZB"  />
+		<comando ente="T_STM_PZB"    value="Failure"    command="STATE_ORDER"    description ="STATE_ORDER  Failure for STM_PZB"  />
+		<comando ente="T_STM_PZB"    value="ON"    command="EB"    description ="EB  ON for STM_PZB"  />
+		<comando ente="T_STM_PZB"    value="OFF"    command="EB"    description ="EB  OFF for STM_PZB"  />
+		<comando ente="T_STM_PZB"    value="ON"    command="SB"    description ="SB  ON for STM_PZB"  />
+		<comando ente="T_STM_PZB"    value="OFF"    command="SB"    description ="SB  OFF for STM_PZB"  />
+		<comando ente="T_STM_PZB"    value="ON"    command="TCO"    description ="TCO  ON for STM_PZB"  />
+		<comando ente="T_STM_PZB"    value="OFF"    command="TCO"    description ="TCO  OFF for STM_PZB"  />
+		<comando ente="T_STM_PZB"    value="ON"    command="TRIP"    description ="TRIP  ON for STM_PZB"  />
+		<comando ente="T_STM_PZB"    value="OFF"    command="TRIP"    description ="TRIP  OFF for STM_PZB"  />
+		<comando ente="T_STM_PZB"    value="ON"    command="OVERRIDE"    description ="OVERRIDE  ON for STM_PZB"  />
+		<comando ente="T_STM_PZB"    value="OFF"    command="OVERRIDE"    description ="OVERRIDE  OFF for STM_PZB"  />
+		<comando ente="T_STM_PZB"    value="ON"    command="ISOLATION"    description ="ISOLATION  ON for STM_PZB"  />
+		<comando ente="T_STM_PZB"    value="OFF"    command="ISOLATION"    description ="ISOLATION  OFF for STM_PZB"  />
+		<comando ente="T_STM_PZB"    value="127"    command="V_MAX"    description ="V_MAX  127 for STM_PZB"  />
+		<comando ente="T_STM_PZB"    value="127"    command="V_SYS"    description ="V_SYS  127 for STM_PZB"  />
+		<comando ente="T_STM_PZB"    value="200"    command="D_SYS"    description ="D_SYS  200 for STM_PZB"  />	
+	</national_system>
+	<national_system name="STM_ATB">
+		<comando ente="T_STM_ATB"    value="No Power"    command="STATE"    description ="STATE  No Power for STM_ATB"  />
+		<comando ente="T_STM_ATB"    value="No Power"    command="STATE_REQ"    description ="STATE_REQ  No Power for STM_ATB"  />
+		<comando ente="T_STM_ATB"    value="No Power"    command="STATE_ORDER"    description ="STATE_ORDER  No Power for STM_ATB"  />
+		<comando ente="T_STM_ATB"    value="Power On"    command="STATE"    description ="STATE  Power On for STM_ATB"  />
+		<comando ente="T_STM_ATB"    value="Power On"    command="STATE_REQ"    description ="STATE_REQ  Power On for STM_ATB"  />
+		<comando ente="T_STM_ATB"    value="Power On"    command="STATE_ORDER"    description ="STATE_ORDER  Power On for STM_ATB"  />
+		<comando ente="T_STM_ATB"    value="Configuration"    command="STATE"    description ="STATE  Configuration for STM_ATB"  />
+		<comando ente="T_STM_ATB"    value="Configuration"    command="STATE_REQ"    description ="STATE_REQ  Configuration for STM_ATB"  />
+		<comando ente="T_STM_ATB"    value="Configuration"    command="STATE_ORDER"    description ="STATE_ORDER  Configuration for STM_ATB"  />
+		<comando ente="T_STM_ATB"    value="Data Entry"    command="STATE"    description ="STATE  Data Entry for STM_ATB"  />
+		<comando ente="T_STM_ATB"    value="Data Entry"    command="STATE_REQ"    description ="STATE_REQ  Data Entry for STM_ATB"  />
+		<comando ente="T_STM_ATB"    value="Data Entry"    command="STATE_ORDER"    description ="STATE_ORDER  Data Entry for STM_ATB"  />
+		<comando ente="T_STM_ATB"    value="Cold StandBy"    command="STATE"    description ="STATE  Cold StandBy for STM_ATB"  />
+		<comando ente="T_STM_ATB"    value="Cold StandBy"    command="STATE_REQ"    description ="STATE_REQ  Cold StandBy for STM_ATB"  />
+		<comando ente="T_STM_ATB"    value="Cold StandBy"    command="STATE_ORDER"    description ="STATE_ORDER  Cold StandBy for STM_ATB"  />
+		<comando ente="T_STM_ATB"    value="Hot StandBy"    command="STATE"    description ="STATE  Hot StandBy for STM_ATB"  />
+		<comando ente="T_STM_ATB"    value="Hot StandBy"    command="STATE_REQ"    description ="STATE_REQ  Hot StandBy for STM_ATB"  />
+		<comando ente="T_STM_ATB"    value="Hot StandBy"    command="STATE_ORDER"    description ="STATE_ORDER  Hot StandBy for STM_ATB"  />
+		<comando ente="T_STM_ATB"    value="Data Available"    command="STATE"    description ="STATE  Data Available for STM_ATB"  />
+		<comando ente="T_STM_ATB"    value="Data Available"    command="STATE_REQ"    description ="STATE_REQ  Data Available for STM_ATB"  />
+		<comando ente="T_STM_ATB"    value="Data Available"    command="STATE_ORDER"    description ="STATE_ORDER  Data Available for STM_ATB"  />
+		<comando ente="T_STM_ATB"    value="Failure"    command="STATE"    description ="STATE  Failure for STM_ATB"  />
+		<comando ente="T_STM_ATB"    value="Failure"    command="STATE_REQ"    description ="STATE_REQ  Failure for STM_ATB"  />
+		<comando ente="T_STM_ATB"    value="Failure"    command="STATE_ORDER"    description ="STATE_ORDER  Failure for STM_ATB"  />
+		<comando ente="T_STM_ATB"    value="ON"    command="EB"    description ="EB  ON for STM_ATB"  />
+		<comando ente="T_STM_ATB"    value="OFF"    command="EB"    description ="EB  OFF for STM_ATB"  />
+		<comando ente="T_STM_ATB"    value="ON"    command="SB"    description ="SB  ON for STM_ATB"  />
+		<comando ente="T_STM_ATB"    value="OFF"    command="SB"    description ="SB  OFF for STM_ATB"  />
+		<comando ente="T_STM_ATB"    value="ON"    command="TCO"    description ="TCO  ON for STM_ATB"  />
+		<comando ente="T_STM_ATB"    value="OFF"    command="TCO"    description ="TCO  OFF for STM_ATB"  />
+		<comando ente="T_STM_ATB"    value="ON"    command="TRIP"    description ="TRIP  ON for STM_ATB"  />
+		<comando ente="T_STM_ATB"    value="OFF"    command="TRIP"    description ="TRIP  OFF for STM_ATB"  />
+		<comando ente="T_STM_ATB"    value="127"    command="V_MAX"    description ="V_MAX  127 for STM_ATB"  />
+		<comando ente="T_STM_ATB"    value="127"    command="V_SYS"    description ="V_SYS  127 for STM_ATB"  />
+		<comando ente="T_STM_ATB"    value="200"    command="D_SYS"    description ="D_SYS  200 for STM_ATB"  />
+		<comando ente="T_STM_ATB"    value="ON"    command="OVERRIDE"    description ="OVERRIDE  ON for STM_ATB"  />
+		<comando ente="T_STM_ATB"    value="OFF"    command="OVERRIDE"    description ="OVERRIDE  OFF for STM_ATB"  />
+	</national_system>
+	<national_system name="STM_TBL1P">
+		<comando ente="T_STM_TBL1P"    value="No Power"    command="STATE_REPORT"    description ="STATE_REPORT  No Power for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="No Power"    command="STATE_REQ"    description ="STATE_REQ  No Power for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="No Power"    command="STATE_ORDER"    description ="STATE_ORDER  No Power for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="Power On"    command="STATE_REPORT"    description ="STATE_REPORT  Power On for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="Power On"    command="STATE_REQ"    description ="STATE_REQ  Power On for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="Power On"    command="STATE_ORDER"    description ="STATE_ORDER  Power On for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="Configuration"    command="STATE_REPORT"    description ="STATE_REPORT  Configuration for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="Configuration"    command="STATE_REQ"    description ="STATE_REQ  Configuration for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="Configuration"    command="STATE_ORDER"    description ="STATE_ORDER  Configuration for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="Data Entry"    command="STATE_REPORT"    description ="STATE_REPORT  Data Entry for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="Data Entry"    command="STATE_REQ"    description ="STATE_REQ  Data Entry for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="Data Entry"    command="STATE_ORDER"    description ="STATE_ORDER  Data Entry for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="Cold StandBy"    command="STATE_REPORT"    description ="STATE_REPORT  Cold StandBy for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="Cold StandBy"    command="STATE_REQ"    description ="STATE_REQ  Cold StandBy for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="Cold StandBy"    command="STATE_ORDER"    description ="STATE_ORDER  Cold StandBy for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="Hot StandBy"    command="STATE_REPORT"    description ="STATE_REPORT  Hot StandBy for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="Hot StandBy"    command="STATE_REQ"    description ="STATE_REQ  Hot StandBy for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="Hot StandBy"    command="STATE_ORDER"    description ="STATE_ORDER  Hot StandBy for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="Data Available"    command="STATE_REPORT"    description ="STATE_REPORT  Data Available for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="Data Available"    command="STATE_REQ"    description ="STATE_REQ  Data Available for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="Data Available"    command="STATE_ORDER"    description ="STATE_ORDER  Data Available for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="Failure"    command="STATE_REPORT"    description ="STATE_REPORT  Failure for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="Failure"    command="STATE_REQ"    description ="STATE_REQ  Failure for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="Failure"    command="STATE_ORDER"    description ="STATE_ORDER  Failure for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="ON"    command="EB"    description ="EB  ON for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="OFF"    command="EB"    description ="EB  OFF for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="ON"    command="SB"    description ="SB  ON for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="OFF"    command="SB"    description ="SB  OFF for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="ON"    command="TCO"    description ="TCO  ON for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="OFF"    command="TCO"    description ="TCO  OFF for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="ON"    command="TRIP"    description ="TRIP  ON for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="OFF"    command="TRIP"    description ="TRIP  OFF for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="ON"    command="BFC_A_ACK"    description ="BFC_A_ACK  ON for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="OFF"    command="BFC_A_ACK"    description ="BFC_A_ACK  OFF for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="ON"    command="BFC_B_ACK"    description ="BFC_B_ACK  ON for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="OFF"    command="BFC_B_ACK"    description ="BFC_B_ACK  OFF for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="ON"    command="BTJ_A_ACK"    description ="BTJ_A_ACK  ON for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="OFF"    command="BTJ_A_ACK"    description ="BTJ_A_ACK  OFF for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="ON"    command="BTJ_B_ACK"    description ="BTJ_B_ACK  ON for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="OFF"    command="BTJ_B_ACK"    description ="BTJ_B_ACK  OFF for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="ON"    command="BAC_A_ACK"    description ="BAC_A_ACK  ON for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="OFF"    command="BAC_A_ACK"    description ="BAC_A_ACK  OFF for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="ON"    command="BAC_B_ACK"    description ="BAC_B_ACK  ON for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="OFF"    command="BAC_B_ACK"    description ="BAC_B_ACK  OFF for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="127"    command="V_MAX"    description ="V_MAX  127 for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="127"    command="V_SYS"    description ="V_SYS  127 for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="200"    command="D_SYS"    description ="D_SYS  200 for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="ON"    command="ISOLATION_NL"    description ="ISOLATION_NL  ON for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="OFF"    command="ISOLATION_NL"    description ="ISOLATION_NL  OFF for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="No Power"    command="STATE_REQ_NL"    description ="STATE_REQ_NL  No Power for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="Tbl1Test"    command="STATE_REQ_NL"    description ="STATE_REQ_NL  Tbl1Test for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="CVR_Activated"    command="STATE_REQ_NL"    description ="STATE_REQ_NL  CVR_Activated for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="NCV_Activated"    command="STATE_REQ_NL"    description ="STATE_REQ_NL  NCV_Activated for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="Deactivated"    command="STATE_REQ_NL"    description ="STATE_REQ_NL  Deactivated for T_STM_TBL1P"  />
+		<comando ente="T_STM_TBL1P"    value="Failure"    command="STATE_REQ_NL"    description ="STATE_REQ_NL  Failure for T_STM_TBL1P"  />
+
+	</national_system>
+	<national_system name="STM_ADIF">
+		<comando ente="T_STM_ADIF"    value="No Power"    command="STATE_REPORT"    description ="STATE_REPORT  No Power for T_STM_ADIF"  />
+		<comando ente="T_STM_ADIF"    value="No Power"    command="STATE_REQ"    description ="STATE_REQ  No Power for T_STM_ADIF"  />
+		<comando ente="T_STM_ADIF"    value="No Power"    command="STATE_ORDER"    description ="STATE_ORDER  No Power for T_STM_ADIF"  />
+		<comando ente="T_STM_ADIF"    value="Power On"    command="STATE_REPORT"    description ="STATE_REPORT  Power On for T_STM_ADIF"  />
+		<comando ente="T_STM_ADIF"    value="Power On"    command="STATE_REQ"    description ="STATE_REQ  Power On for T_STM_ADIF"  />
+		<comando ente="T_STM_ADIF"    value="Power On"    command="STATE_ORDER"    description ="STATE_ORDER  Power On for T_STM_ADIF"  />
+		<comando ente="T_STM_ADIF"    value="Configuration"    command="STATE_REPORT"    description ="STATE_REPORT  Configuration for T_STM_ADIF"  />
+		<comando ente="T_STM_ADIF"    value="Configuration"    command="STATE_REQ"    description ="STATE_REQ  Configuration for T_STM_ADIF"  />
+		<comando ente="T_STM_ADIF"    value="Configuration"    command="STATE_ORDER"    description ="STATE_ORDER  Configuration for T_STM_ADIF"  />
+		<comando ente="T_STM_ADIF"    value="Data Entry"    command="STATE_REPORT"    description ="STATE_REPORT  Data Entry for T_STM_ADIF"  />
+		<comando ente="T_STM_ADIF"    value="Data Entry"    command="STATE_REQ"    description ="STATE_REQ  Data Entry for T_STM_ADIF"  />
+		<comando ente="T_STM_ADIF"    value="Data Entry"    command="STATE_ORDER"    description ="STATE_ORDER  Data Entry for T_STM_ADIF"  />
+		<comando ente="T_STM_ADIF"    value="Cold StandBy"    command="STATE_REPORT"    description ="STATE_REPORT  Cold StandBy for T_STM_ADIF"  />
+		<comando ente="T_STM_ADIF"    value="Cold StandBy"    command="STATE_REQ"    description ="STATE_REQ  Cold StandBy for T_STM_ADIF"  />
+		<comando ente="T_STM_ADIF"    value="Cold StandBy"    command="STATE_ORDER"    description ="STATE_ORDER  Cold StandBy for T_STM_ADIF"  />
+		<comando ente="T_STM_ADIF"    value="Hot StandBy"    command="STATE_REPORT"    description ="STATE_REPORT  Hot StandBy for T_STM_ADIF"  />
+		<comando ente="T_STM_ADIF"    value="Hot StandBy"    command="STATE_REQ"    description ="STATE_REQ  Hot StandBy for T_STM_ADIF"  />
+		<comando ente="T_STM_ADIF"    value="Hot StandBy"    command="STATE_ORDER"    description ="STATE_ORDER  Hot StandBy for T_STM_ADIF"  />
+		<comando ente="T_STM_ADIF"    value="Data Available"    command="STATE_REPORT"    description ="STATE_REPORT  Data Available for T_STM_ADIF"  />
+		<comando ente="T_STM_ADIF"    value="Data Available"    command="STATE_REQ"    description ="STATE_REQ  Data Available for T_STM_ADIF"  />
+		<comando ente="T_STM_ADIF"    value="Data Available"    command="STATE_ORDER"    description ="STATE_ORDER  Data Available for T_STM_ADIF"  />
+		<comando ente="T_STM_ADIF"    value="Failure"    command="STATE_REPORT"    description ="STATE_REPORT  Failure for T_STM_ADIF"  />
+		<comando ente="T_STM_ADIF"    value="Failure"    command="STATE_REQ"    description ="STATE_REQ  Failure for T_STM_ADIF"  />
+		<comando ente="T_STM_ADIF"    value="Failure"    command="STATE_ORDER"    description ="STATE_ORDER  Failure for T_STM_ADIF"  />
+		<comando ente="T_STM_ADIF"    value="ON"    command="EB"    description ="EB  ON for T_STM_ADIF"  />
+		<comando ente="T_STM_ADIF"    value="OFF"    command="EB"    description ="EB  OFF for T_STM_ADIF"  />
+		<comando ente="T_STM_ADIF"    value="ON"    command="ISOLATION"    description ="ISOLATION  ON for T_STM_ADIF"  />
+		<comando ente="T_STM_ADIF"    value="OFF"    command="ISOLATION"    description ="ISOLATION  OFF for T_STM_ADIF"  />
+	</national_system>
+	
+	
+	
+	
+</single_command>
